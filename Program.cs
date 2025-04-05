@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 builder.Services.AddProblemDetails();
 var app = builder.Build();
-app.UseRequestCulture();
+app.UseRequestPath();
 app.Map("/map1", HandleMapTest1);
 app.Map("/map2", HandleMapTest2);
 app.Run(async context =>
