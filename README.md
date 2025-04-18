@@ -14,6 +14,19 @@ a) Request path middleware which intercepts the request path received and inject
 
 b) Custom Exception Handler,implements the IExceptionHandler interface which is then used by built-in exception handler middleware.
 
+### Rate- Limiting Middleware ###
+
+Rate limiting is the way to control the amount of traffic that a web application or API receives, by limiting the number 
+of requests that can be made in a given period of time.This can help to improve the performance of the site or application.
+
+Key reason to implement rate limiting:
+
+a) Prevent abusing.
+b) Ensuring fair usage.
+c) Protecting resources.
+d) Enhanced security.
+e) Cost management.
+
 Reference : https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-9.0
 
 
