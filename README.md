@@ -22,9 +22,13 @@ of requests that can be made in a given period of time.This can help to improve 
 Key reason to implement rate limiting:
 
 a) Prevent abusing.
+
 b) Ensuring fair usage.
+	
 c) Protecting resources.
+	
 d) Enhanced security.
+	
 e) Cost management.
 
 Reference : https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-9.0
